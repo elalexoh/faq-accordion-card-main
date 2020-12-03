@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <script defer src="./assets/js/app.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="faq-wrapper">
+    <!-- thumbnail -->
+    <div class="illustration-block">
+      <img src="./images/bg-pattern-desktop.svg" class="bg-pattern desktop" alt="">
+      <img src="./images/bg-pattern-mobile.svg" class="bg-pattern mobile" alt="">
+      <img src="./images/illustration-woman-online-mobile.svg" class="illustration mobile" alt="">
+      <img src="./images/illustration-woman-online-desktop.svg" class="illustration desktop" alt="">
+    </div>
+    <div class="illustration-block outside">
+      <!-- <img src="./images/illustration-box-desktop.svg" class="illustration" alt=""> -->
+    </div>
+    <div class="faq-content">
+      <h1 class="faq-content__title strong">FAQ</h1>
+
+      <div class="accordion" onclick="showAccordion(this)">
+        <div class="accordion__head">
+          <h3 class="accordion__title">How many team members can I invite?</h3>
+          <img src="./images/icon-arrow-down.svg" class="accordion__icon" alt="">
+          <p class="accordion__content hide">
+            You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="showAccordion(this)">
+        <div class="accordion__head">
+          <h3 class="accordion__title">What is the maximum file upload size?</h3>
+          <img src="./images/icon-arrow-down.svg" class="accordion__icon" alt="">
+          <p class="accordion__content hide">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="showAccordion(this)">
+        <div class="accordion__head">
+          <h3 class="accordion__title">How do I reset my password?</h3>
+          <img src="./images/icon-arrow-down.svg" class="accordion__icon" alt="">
+          <p class="accordion__content hide">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="showAccordion(this)">
+        <div class="accordion__head">
+          <h3 class="accordion__title">Can I cancel my subscription?</h3>
+          <img src="./images/icon-arrow-down.svg" class="accordion__icon" alt="">
+          <p class="accordion__content hide">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion" onclick="showAccordion(this)">
+        <div class="accordion__head">
+          <h3 class="accordion__title">Do you provide additional support?</h3>
+          <img src="./images/icon-arrow-down.svg" class="accordion__icon" alt="">
+          <p class="accordion__content hide">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a class="strong" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a class="strong" href="https://freddev.netlify.com" target="_blank">Frederick A. Gonzalez</a>.
+  </div>
+</body>
+
+</html>
